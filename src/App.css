@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import "tailwindcss";
+
+.angkor{
+    font-family: "Angkor", serif;;
+}
+
+.item {
+  @apply w-[22%] min-w-62.5 h-100 p-5
+         rounded-lg border border-gray-400
+         transition-all duration-200
+         cursor-pointer
+         hover:shadow-sm hover:shadow-red-500;
+}
